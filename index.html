@@ -23,7 +23,6 @@ body {
     padding: 20px;
 }
 
-/* 卡片 */
 .card {
     background: #111827;
     border-radius: 18px;
@@ -37,7 +36,6 @@ body {
     animation: fadeIn 1s ease;
 }
 
-/* 头像 */
 .avatar {
     width: 110px;
     height: 110px;
@@ -47,14 +45,12 @@ body {
     margin-bottom: 18px;
 }
 
-/* 名字 */
 h1 {
     font-size: 24px;
     margin-bottom: 8px;
     letter-spacing: 1px;
 }
 
-/* 简介 */
 .bio {
     font-size: 14px;
     color: #9aa4af;
@@ -62,7 +58,6 @@ h1 {
     line-height: 1.6;
 }
 
-/* 联系方式 */
 .contact {
     font-size: 14px;
     margin-bottom: 18px;
@@ -73,7 +68,6 @@ h1 {
     margin: 6px 0;
 }
 
-/* 社交按钮 */
 .social a {
     display: inline-block;
     margin: 6px;
@@ -92,7 +86,6 @@ h1 {
     box-shadow: 0 0 12px #00f0ff;
 }
 
-/* 响应式 */
 @media (max-width: 480px) {
     .card {
         padding: 28px 20px;
@@ -102,7 +95,6 @@ h1 {
     }
 }
 
-/* 动画 */
 @keyframes fadeIn {
     from {opacity: 0; transform: translateY(20px);}
     to {opacity: 1; transform: translateY(0);}
@@ -113,18 +105,19 @@ h1 {
 <body>
 
 <div class="card">
-    <img class="avatar" src="https://i.pravatar.cc/300" alt="头像">
+    <!-- 头像已改为本地图片 -->
+    <img class="avatar" src="avatar.jpg" alt="头像">
 
     <h1>孙薪翰</h1>
 
     <div class="bio">
-        我是一个傻哔。<br>
-        爱好看片，有一点神秘气息。
+        一个傻哔。<br>
+        爱手银，看片。
     </div>
 
     <div class="contact">
-        <span>📧 email@example.com</span>
-        <span>📱 +86 17876035208 </span>
+        <微信>📧 wxid_qm5n6m20dq5j12</微信>
+        <手机>📱 +86 178 7603 5208<手机>
     </div>
 
     <div class="social">
@@ -135,7 +128,6 @@ h1 {
 </div>
 
 <script>
-// 简单动态标题效果
 const title = document.title;
 let i = 0;
 setInterval(() => {
